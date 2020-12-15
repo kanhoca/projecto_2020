@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
 function Header(){
     return(
         <header className="header">
@@ -7,7 +8,7 @@ function Header(){
                  <span>Htur</span>
              </div>
              <div className="">
-                 <button>Novo Post</button>
+                 <Button color="primary">Novo Post</Button>
                  <span>Img1</span>
                  <span>Img2</span>
              </div>
