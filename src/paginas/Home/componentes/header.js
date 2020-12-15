@@ -9,8 +9,8 @@ function Header(){
              </div>
              <div className="">
                  <Button color="primary">Novo Post</Button>
+                 <span>Img0</span>
                  <span>Img1</span>
-                 <span>Img2</span>
              </div>
              </div>
             
