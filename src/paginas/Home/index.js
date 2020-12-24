@@ -1,17 +1,17 @@
 import React from 'react';
-import './estilo.css';
-import Header from './componentes/header';
+import Layout from './componentes/layout';
+import GlobalStyles from './componentes/GlobalStyles';
 
-function Home() {
+
+function App() {
  return (
-     <div>
-         <Header></Header>
-         <maim className="main">
-             <div className="navbar">Navbar</div>
-             <div className="feed">Feed</div>
- 
-         </maim>
-     </div>
+     <>
+        
+        <Layout />
+        <GlobalStyles/>
+        
+     </>
+
  );
 }
-export default Home;
+export default App;

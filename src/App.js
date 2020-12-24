@@ -1,7 +1,10 @@
 import './App.css';
-import Home from './paginas/Home';
+import Routes from './Routes';
+
+
 
 function App() {
-  return  <Home>HELO</Home>;
+  return <Routes />
+
 }
 export default App;
