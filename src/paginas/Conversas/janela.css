@@ -1,0 +1,167 @@
+.principal{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+
+.header-principal{
+
+    height: 60px;
+    border-bottom: 1px solid #CCC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.info{
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+
+
+}
+.janela-avatar{
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+
+}
+
+.janela-nome{
+
+    font-size: 17px;
+    color: black;
+
+
+}
+
+.janela-btn{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+
+
+}
+
+.janela-bt{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all ease 0.3s;
+
+
+}
+
+.body-principal{
+
+    flex: 1;
+    overflow: auto;
+    background-color: #E5DDD5;
+    background-size: cover;
+    background-position:center;
+    padding: 20px 30px;
+
+
+
+}
+
+
+.body-principal::-webkit-scrollbar{
+
+    width: 6PX;
+    height: 6px;
+
+}
+
+.body-principal::-webkit-scrollbar-thumb{
+
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.footer-principal{
+
+    height: 62px;
+    align-items: center;
+    display: flex;
+
+
+
+
+}
+
+.janela-pre{
+    display: flex;
+    margin: 0 15px;
+
+
+
+}
+
+
+.janela-input{
+    flex: 1;
+    margin: 0 15px;
+
+
+}
+
+.caixa{
+
+    width: 100%;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    border-radius: 20PX;
+    font-size: 15px;
+    color: #4a4a4a;
+    padding-left: 15PX;
+}
+
+.janela-pos{
+
+    display: flex;
+
+
+}
+.emoji-area{
+
+    height: 200px;
+    overflow-y: hidden;
+    transition : all ease;
+
+}
+
+aside.emoji-picker-react{
+
+    width: auto;
+    background: none;
+}
+.emoji-picker .emoji-group::before{
+
+    background: none;
+}
+
+
+
+
+

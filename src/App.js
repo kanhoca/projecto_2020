@@ -1,10 +1,11 @@
 import './App.css';
-import Routes from './Routes';
+/**import Routes from './Routes'; */
+import Conversas from './paginas/Conversas/Conversa';
 
 
 
 function App() {
-  return <Routes />
+  return <Conversas />
 
 }
 export default App;

@@ -1,0 +1,34 @@
+.intro{
+
+     background-color: #F8F9FA;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+}
+
+.intro img{
+
+    width: 250PX;
+    height: auto;
+
+}
+
+.intro h1{
+    font-size: 32px;
+    color: #525252;
+    font-weight: normal;
+    margin-top: 30px;
+
+}
+.intro h2{
+    font-size: 14px;
+    color: #777;
+    font-weight: normal;
+    margin-top: 20px;
+    line-height: 20px;
+    text-align: center;
+    
+}
+

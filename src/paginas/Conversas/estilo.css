@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--Cinza);
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.app-window{
+
+    display: flex;
+    height: 100vh;
+    background-color:#EDEDED;
+    
+
+}
+
+.sidebar{
+
+    width: 35%;
+    max-width: 415px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--CinzaEscuro);
+
+
+}
+
+.area{
+
+    flex: 1;
+
+
+}
+
+header{
+
+
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    
+}
+
+.header--avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+
+
+}
+
+
+.header--buttons{
+    display: flex;
+
+
+
+}
+
+
+.header--btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search{
+
+    background-color: #F6F6F6;
+    border-bottom: 1px solid #EEE;
+    padding: 5px 15px;
+
+}
+
+.search-input{
+    background-color: white;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    
+
+
+}
+
+.search-input input{
+
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    margin-left: 10px;
+
+    
+}
+
+.Chatlist{
+    flex:1;
+    background-color: white;
+    overflow-y: auto;
+
+}
+
+.Chatlist::-webkit-scrollbar{
+
+    width: 6PX;
+    height: 6px;
+
+}
+
+.Chatlist::-webkit-scrollbar-thumb{
+
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+aside.emoji-picker-react{
+
+    width: auto;
+    background: none;
+}
+.emoji-picker .emoji-group::before{
+
+    background: none;
+}
+
+
+
+
+
+
+
+
+:root{
+    --primary:#000;
+    --secundary: #15181C;
+    --search:#202327;
+    --white: #D9D9D9;
+    --gray: #7A7A7A;
+    --outline: #2F3336;
+    --retweet: #00C06B;
+    --like: #E8265E;
+    --bebe: #9ac5e4;
+    --twitter-dark-hover: #011017;
+    --twitter-light-hover: #2C8ED6;
+    --Branco:#ffffff;
+    --quase:#161411;
+    --Drakula:#282a36;
+    --Cinza:#EDEDED;
+    --CinzaEscuro:#DDD;
+    --azul:#233152;
+   
+
+
+}
